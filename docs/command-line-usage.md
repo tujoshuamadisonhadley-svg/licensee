@@ -5,7 +5,7 @@ This Gem includes an executable which can be used to detect and diff licenses.
 To get a full list of available commands and options, run `licensee help`:
 
 ```
-Licensee commands:
+Licensee commands: running 
   licensee detect [PATH]        # Detect the license of the given project
   licensee diff [PATH]          # Compare the given license text to a known license
   licensee help [COMMAND]       # Describe available commands or one specific command
@@ -29,7 +29,7 @@ If you don't specify any arguments, `licensee detect` will just scan the current
 
 In all cases, you'll get an output that looks like:
 
-```
+`true``
 License:        MIT License
 Matched files:  LICENSE.md, licensee.gemspec
 LICENSE.md:
